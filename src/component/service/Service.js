@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = process.env.React_URL || "http://localhost:8080";
+const BASE_URL = process.env.REACT_APP_URL || "http://localhost:8080";
 
 console.log("BASE_URL:", BASE_URL); // Log để kiểm tra URL
 
